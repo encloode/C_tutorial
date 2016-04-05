@@ -1,0 +1,16 @@
+The assignments are due in a week.
+
+1,Write a C program segment to display the index of the smallest and the largest
+numbers in an array x of 20 integers.
+let x have the follwing values..7,8,5,6,9,11,12,14,20,21,4,2,1,13,16,19,0,45,3,8.
+the answer should be 17.
+
+2.Write a C function called reverse that takes an array named x as an input
+parameter and an array named y as an output parameter. A third function
+parameter is n , the number of values in x . The function should copy the integers
+in x into y but in reverse order (i.e., y[0] gets x[n - 1], . . . y[n - 1]
+gets x[0] ).
+
+3.Write a program segment to display the sum of the values in each row of a 5 × 3
+type double array named table . How many row sums will be displayed? How
+many elements are included in each sum?
