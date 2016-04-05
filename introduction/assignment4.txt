@@ -1,0 +1,44 @@
+1.complete the follwoing program. The fucntion is named tenfold and its main purpose is to fill a second array
+with values of the original array times 10 but only for positive numbers.(negative numbers in the original array should be left untouched)
+your function should work with arrays of integers of any given size. your function must not modify the original array.
+Display the secon array that contains the results.
+
+#include <stdio.h>
+void tenfold()
+{
+/* the tenfold function should go here*/
+}
+
+int main(void)
+{
+ int arr1[10]={5,4,3,2,1,0,-1,-2,-3,4}, arr2[10];
+int size=10;
+
+/*call the function here*/
+/*array2 shoudl have the value 50,40,30,2,1,0,-1-2-3,40*/
+return 0;
+
+}
+2
+a. What is the output of the following program? 
+b. What does function strangecompute when called with a positive integer?
+
+#include <stdio.h>
+int strange(int n);
+
+int
+main(void)
+{
+printf("%d\n", strange(7));
+}
+
+int
+strange(int n)
+{
+int ans;
+if (n == 1)
+ans = 0;
+else
+ans = 1 + strange(n / 2);
+return (ans);
+}
