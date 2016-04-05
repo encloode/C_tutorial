@@ -12,12 +12,12 @@ parameter is n , the number of values in x . The function should copy the intege
 in x into y but in reverse order (i.e., y[0] gets x[n - 1], . . . y[n - 1]
 gets x[0] ).
 
-hint. write just a function, not an entire program. of course you can test your funtion by 
+hint. write just a function, not an entire program. of course you can test your function by 
 writing a whole program.
 eg if n= 4 and x[0]=10 then y[3]=10, if x[1]=5 then y[2]=5...and so on.  
 
 
-3.Write a program segment to display the sum of the values in each row of a 5 × 3
+3.Write a program segment to display the sum of the values in each row of a 5 Ã— 3
 type double array named table . How many row sums will be displayed? How
 many elements are included in each sum?
 
